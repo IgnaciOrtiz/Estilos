@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Estilos.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Button Text="¡Estilízame!"
+                TextColor="Black"
+                HeightRequest="200"></Button>
+
+        <StackLayout Orientation="Horizontal">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            <Button Text="Botón 1"
+                    TextColor="White"
+                    Style="{StaticResource btnGreen}"></Button>
+            <Button Text="Botón 2"
+                    TextColor="White"
+                    Style="{StaticResource btnGreen}"></Button>
+            <Button Text="Botón 3"
+                    TextColor="White"
+                    Style="{StaticResource btnGreen}"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

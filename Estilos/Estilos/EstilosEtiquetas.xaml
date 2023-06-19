@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Estilos.EstilosEtiquetas">
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <Label Text="Title style"
+                   TextColor="White"
+                   Style="{DynamicResource TitleStyle}"></Label>
+
+            <Label Text="Subtitle text style"
+                   TextColor="White"
+                   Style="{DynamicResource SubtitleTextStyle}"></Label>
+
+            <Label Text="Body style"
+                   TextColor="White"
+                   Style="{DynamicResource BodyStyle}"></Label>
+
+            <Label Text="Caption style"
+                   TextColor="White"
+                   Style="{DynamicResource CaptionStyle}"></Label>
+
+            <Label Text="List item detail text style"
+                   TextColor="White"
+                   Style="{DynamicResource ListItemDetailTextStyle}"></Label>
+
+            <Label Text="List item text style"
+                   TextColor="White"
+                   Style="{DynamicResource ListItemTextStyle}"></Label>
+
+            <Label Text="No style"
+                   TextColor="White"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
